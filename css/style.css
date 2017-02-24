@@ -1,0 +1,255 @@
+
+/* ---------------------------------------------- /*
+ * General styles
+/* ---------------------------------------------- */
+
+body {
+    font: 300 15px/1.6 'Special Elite', cursive;
+    color: #545454;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #EF4836;
+}
+
+a:hover {
+    color: #C4C4C4;
+}
+
+/* ---------------------------------------------- /*
+ * Transition elsements
+/* ---------------------------------------------- */
+
+a,
+.btn,
+.navbar,
+.form-control,
+.portfolio-item-description {
+    -webkit-transition: all 0.125s ease-in-out 0s;
+    -moz-transition: all 0.125s ease-in-out 0s;
+    -ms-transition: all 0.125s ease-in-out 0s;
+    -o-transition: all 0.125s ease-in-out 0s;
+    transition: all 0.125s ease-in-out 0s;
+}
+
+.portfolio-item-preview {
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+/* ---------------------------------------------- /*
+ * Reset box-shadow
+/* ---------------------------------------------- */
+
+.btn,
+.panel,
+.progress,
+.form-control,
+.modal-content,
+.form-control:hover,
+.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* ---------------------------------------------- /*
+ * Reset border-radius
+/* ---------------------------------------------- */
+
+.btn,
+.label,
+.alert,
+.avatar,
+.progress,
+.form-control,
+.modal-content,
+.panel-group .panel,
+.widget-social li a {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/* ---------------------------------------------- /*
+ * General
+/* ---------------------------------------------- */
+
+.wrapper {
+    overflow: hidden;
+}
+
+.section {
+    position: relative;
+    padding: 60px 0;
+}
+
+.callout {
+    background: #F5F5F5;
+}
+
+.headline {
+    margin: 0 0 60px;
+}
+
+.headline p {
+    font-weight: 700;
+    color: #C4C4C4;
+}
+
+.callout-btn {
+    margin-top: 10px;
+}
+
+.rotate {
+    text-shadow: 0 0 0 !important;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+.long-down {
+    margin-bottom: 40px;
+}
+
+.icon-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.icon-list > li > i {
+    margin-right: 6px;
+}
+
+h3 > .fa {
+    font-size: 24px;
+    margin-right: 6px;
+}
+
+
+
+/* ---------------------------------------------- /*
+ * Navigation
+/* ---------------------------------------------- */
+
+.navbar {
+    background: none;
+    border-radius: 0;
+    border: 0;
+    padding: 20px 0;
+    text-transform: uppercase;
+    color: #000 !important;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    background: none;
+    outline: 0;
+    color: #EF4836;
+}
+
+.navbar-custom .navbar-brand {
+    font: 700 18px/1.2 'Special Elite', cursive;
+    color: #000;
+}
+
+.navbar-custom .navbar-nav > li.active {
+    border-bottom: 3px solid #000;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background: #fff;
+}
+
+.navbar-custom .navbar-nav > li > a,
+.navbar-custom .navbar-nav .dropdown-menu > li > a {
+    color: #000;
+    font-size: 12px;
+    font-family: 'Special Elite', cursive;
+}
+
+.navbar-color,
+.custom-collapse {
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+    padding: 0;
+}
+
+.navbar-color .navbar-brand,
+.custom-collapse .navbar-brand,
+.navbar-color .navbar-nav > li > a,
+.navbar-color .navbar-nav .dropdown-menu > li > a,
+.custom-collapse .navbar-nav > li > a,
+.custom-collapse .navbar-nav .dropdown-menu > li > a {
+    color: #000;
+}
+
+.navbar-color .navbar-nav > li.active {
+    border-bottom: 3px solid #222;
+}
+
+.custom-collapse .navbar-nav {
+    text-align: left;
+}
+
+.custom-collapse .navbar-nav > li.active {
+    border: 0;
+}
+
+.navbar-color .navbar-toggle .icon-bar,
+.custom-collapse .navbar-toggle .icon-bar {
+    background: #fff;
+}
+
+
+/* ---------------------------------------------- /*
+ * Intro
+/* ---------------------------------------------- */
+
+#intro {
+    padding: 160px 0 160px 0;
+    text-align: center;
+    color: #000;
+    font-family: 'Special Elite', cursive;
+}
+
+#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
+    color: #000;
+}
+
+.hello {
+    margin: 0 0 100px;
+}
+
+
+/* ---------------------------------------------- /*
+ * Media
+/* ---------------------------------------------- */
+
+@media (max-width: 767px) {
+
+    .wrapper {
+        text-align: center;
+    }
+
+}
+
+/* ---------------------------------------------- /*
+ * Footer
+/* ---------------------------------------------- */
+
+#footer {
+    background: #141414;
+    padding: 20px 0;
+    color: #FFF;
+}

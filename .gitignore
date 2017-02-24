@@ -38,3 +38,7 @@ target
 # editor files #
 ################
 *~
+
+# jetbrains ide files #
+#######################
+.idea/
